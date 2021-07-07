@@ -1,0 +1,414 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+}
+
+/* Home Section Style Start */
+
+.homeSection{
+    display: flex;
+}
+.homeImage img {
+    width: 1000px;
+    height: 700px;
+}
+.homeAbout{
+    width: 450px;
+    height: 700px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+}
+
+.homeTitle h1{
+    color:#d1953c;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+}
+.homeTitle h3{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 10px;
+}
+.homeTitle2{
+    width: 350px;
+    height: 200px;
+    border: 1px white solid;
+    color: white;
+    margin: auto;
+    margin-top: 60px;
+}
+.homeTitle2 h3{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+.homeTitle2 h1{
+    color: #d1953c;
+    text-align: center;
+    padding-top: 20px;
+}
+.homeTitle2 h4{
+    text-align: center;
+    margin-top: 20px;
+}
+.sheduleVisit h3{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 25px;
+}
+.form input{
+    height: 30px;
+    border-radius: 8px;
+    padding-left: 15px;
+    border: none;
+}
+.form input:focus{
+    outline: none;
+}
+.sheduleVisit button{
+    width: 100px;
+    height: 35px;
+    margin-left: 100px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #d1953c;
+    cursor: pointer;
+}
+/* home section style end */
+
+/* About Style Section Start */
+
+.hallImg img{
+    width: 300px;
+    height: 250px;
+    margin-top: 230px;
+    margin-left: 380px;
+}
+.bedroomImg img{
+    width: 300px;
+    height: 250px;
+   position: absolute;
+   top: 800px;
+    left: 150px;
+}
+.about{
+    display: flex;
+    align-items: center;
+}
+.aboutOverview{
+    width: 500px;
+    margin-left: 120px;
+    line-height: 30px;
+    margin-top: 50px;
+}
+.aboutTitle1{
+    font-size: 18px;
+    color: #636363;
+}
+.aboutTitle2{
+    font-size: 28px;
+    margin-top: 10px;
+    color: #212629;
+}
+.aboutTitle2 span{
+    font-size: 32px;
+    color: black;
+    font-weight: 800;
+}
+.aboutTitle3{
+    margin-top: 10px;
+    color: #636363;
+}
+.aboutButton button{
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+/* About Style Section End */
+/* enquire section start */
+    .enquireSection{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 150px;
+        background-color: #000000;
+        color: white;
+        margin-top: 100px;
+    }
+    .enquireTitle{
+        font-size: 26px;
+        margin-left: 260px;
+    }
+    .enquireButton{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: 500;
+        background-color: white;
+        color: black;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-left: 130px;
+    }
+/* enquire section end */
+
+/* Amenities Section Start */
+.amenitiesTitle{
+    text-align: center;
+    margin-top: 130px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.amenitiesTitle span{
+    font-size: 28px;
+    font-weight: 700;
+}
+.amenitiesCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    cursor: pointer;
+    
+}
+.amenitiesCard img{
+    width: 100px;
+    height: 100px;
+}
+.amenitiesCard h3{
+    font-size: 18px;
+    color: #212629;    
+    font-weight: 400;
+}
+.amenitiesCardlayer1{
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 60px;
+}
+
+/* Amenities Section End */
+
+/* Price Section Start */
+.priceSection{
+    width: 100vw;
+    height: 300px;
+    background-color: #DDE7EF;
+    margin-top: 130px;
+}
+.priceSectionTitle{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.priceSectionTitle span{
+    font-size: 24px;
+    font-weight: 700;
+}
+.priceSectionTable{
+    margin-left: 130px;
+    margin-top: 40px;
+}
+th,td,table {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th,td{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  /* price section end */
+
+  /* floor plan Section start */
+  .floorPlanTitle{
+      text-align: center;
+      margin-top: 120px;
+      font-size: 24px;
+      font-weight: 400;
+  }
+  .floorPlanTitle span{
+      font-size: 28px;
+      font-weight: 800;
+  }
+  .floorPlanCards{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 70px;
+  }
+  .floorPlanCard{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+  }
+
+  .floorPlanCard img{
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    
+  }
+  .floorPlanCard button{
+      width: 100px;
+      height: 35px;
+      margin-top: 20px;
+      background-color: black;
+      color: white;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+  }
+  /* floor plan end */
+  /* footer and contact start */
+  .footer{
+      width: 100%;
+      background-color: black;
+      height: 700px;
+      margin-top: 150px;
+  }
+  .mapContact{
+      display: flex;
+      width: 1200px;
+      justify-content: space-around;
+      margin: auto;
+      padding-top: 100px;
+  }
+  .map img{
+      width: 500px;
+      height: 350px;
+      border-radius: 3px;
+  }
+  .contactTitle1{
+      text-align: center;
+      font-size: 24px;
+      margin-top: 30px;
+      font-weight: 500;
+      color: #d1953c;
+  }
+  .contactTitle2{
+      text-align: center;
+      font-size: 18px;
+      font-weight: 300;
+      margin-top: 10px;
+      color: white;
+  }
+  .input {
+      display: flex;
+      flex-direction: column;
+      height: 150px;
+      justify-content: space-between;
+      margin-top: 30px;
+  }
+  .input input{
+      width: 400px;
+      height: 35px;
+      border-radius: 8px;
+      padding-left: 20px;
+  }
+  .input input:focus{
+      outline: none;
+      box-shadow: none;
+  }
+ 
+  .contactButton button{
+      width: 150px;
+      height: 35px;
+      margin-left: 130px;
+      margin-top: 25px;
+      background-color: #d1953c;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+  }
+  .copyRightTitle1{
+      color: white;
+      text-align: center;
+      margin-top: 70px;
+  }
+  .copyRightTitle2{
+    color: white;
+    width: 1100px;
+    font-size: 13px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  /* footer and contact end */
+
+  /* fed in fed out code start */
+  @keyframes animationName {
+    0%   { opacity:0; }
+    50%  { opacity:1; }
+    100% { opacity:0; }
+  }
+  @-o-keyframes animationName{
+    0%   { opacity:0; }
+    50%  { opacity:1; }
+    100% { opacity:0; }
+  }
+  @-moz-keyframes animationName{
+    0%   { opacity:0; }
+    50%  { opacity:1; }
+    100% { opacity:0; }
+  }
+  @-webkit-keyframes animationName{
+    0%   { opacity:0; }
+    50%  { opacity:1; }
+    100% { opacity:0; }
+  }   
+  .elementToFadeInAndOut {
+     -webkit-animation: animationName 2s infinite;
+     -moz-animation: animationName 2s infinite;
+     -o-animation: animationName 2s infinite;
+      animation: animationName 2s infinite;
+  }
+
+  /* fed in fed out end */
+
+  /* start for mobile responsive */
+
+  
+
+
+ 
+
+
+
+
+
