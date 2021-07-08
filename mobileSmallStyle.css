@@ -1,6 +1,6 @@
 
 
-@media (max-width:360px) {
+@media (max-width:768px) {
     .bedroomImg img{
         position: relative;
     }
@@ -50,7 +50,6 @@
     .form input{
         height: 90px;
         padding-left: 40px;
-        padding-top: 20px;
         font-size: 42px;
     }
     .form input::placeholder{
