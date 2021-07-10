@@ -1,5 +1,4 @@
 
-console.log("work");
 var i = 0;
 var images = [];
 var time = 3000;
@@ -18,3 +17,43 @@ function changeImg() {
     setTimeout("changeImg()",time);
 }
 window.onload = changeImg;
+
+
+
+let contactButton = document.querySelector('.enquireButton');
+let timesButton = document.querySelector('.timesButton');
+let model = document.querySelector('.model');
+let container = document.querySelector('.container');
+let downloadBroucher = document.querySelector('.aboutButton');
+let plan1 = document.querySelector('.plan1');
+let plan2 = document.querySelector('.plan2');
+let plan3 = document.querySelector('.plan3');
+
+
+
+function handleAddClick(){
+    model.classList.remove('hideModel');
+    container.classList.add('containerShadow');
+}
+function handleRemoveClick(){
+    model.classList.add('hideModel');
+    container.classList.remove('containerShadow');
+
+}
+
+plan1.addEventListener('click',handleAddClick);
+plan2.addEventListener('click',handleAddClick);
+plan3.addEventListener('click',handleAddClick);
+
+
+
+downloadBroucher.addEventListener('click',handleAddClick);
+ contactButton.addEventListener('click',handleAddClick);
+ timesButton.addEventListener('click',handleRemoveClick);
+
+
+
+
+
+
+

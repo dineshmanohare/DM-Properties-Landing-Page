@@ -4,11 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <!-- <meta name="viewport" content="width=1000; user-scalable=1;" /> -->
-    <meta name="viewport" content="width=300;, initial-scale=1, maximum-scale=1">
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,12 +13,12 @@
     <title>DM Properties</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./mobileSmallStyle.css">
-    <!-- <link rel="stylesheet" href="./laptop1024Style.css"> -->
 
 </head>
 
 <body>
-    <!-- home Section Start -->
+   <div class="container">
+        <!-- home Section Start -->
     <div class="homeSection">
         <div class="homeImage">
             <img src="../Asset/apartments.jpg" alt="homeimg">
@@ -41,12 +37,14 @@
            </div>
             <div class="sheduleVisit">
                 <h3>Shedule Site Visit</h3>
+               <form>
                 <div class="form">
-                    <input type="text" placeholder="Full Name" />
-                    <input type="text" placeholder="Mobile Number" />
-                    <input type="text" placeholder="Email" />
+                    <input type="text"  placeholder="Full Name" required />
+                    <input type="text"  placeholder="Mobile Number" required/>
+                    <input type="text"  placeholder="Email" required/>
                 </div>
-                <button>Submit</button>
+                <button type="submit" class="formSubmit">Submit</button>
+               </form>
             </div>
         </div>
     </div>
@@ -175,15 +173,15 @@
         <div class="floorPlanCards">
             <div class="floorPlanCard">
                 <img src="../Asset/9.png" alt="">
-                <button>View Plan</button>
+                <button class="plan1">View Plan</button>
             </div>
             <div class="floorPlanCard">
                 <img src="../Asset/10.png" alt="">
-                <button>View plan</button>
+                <button class="plan2">View plan</button>
             </div>
             <div class="floorPlanCard">
                 <img src="../Asset/6.png" alt="">
-                <button>View Plan</button>
+                <button class="plan3">View Plan</button>
             </div>
         </div>
     </div>
@@ -221,7 +219,25 @@
 
     <!-- contact and footer end -->
     
+        <div class="model hideModel">
+            <div class="modelTitle">
+                <h1>Register Now for Best Offers</h1>
+                <button class="timesButton">&times;</button>
+            </div>
+            <div class="modelInputs">
+            <input type="text" placeholder="Full Name"/>
+            <input type="text" placeholder="Mobile Number"/>
+            <input type="text" placeholder="Email"/>
+            </div>
+            <div class="modelCallBack">
+                <button>Get A Quick Call Back</button>
+            </div>
+        </div>
+    
+   </div>
+    
 </body>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="./lodingpage.js"></script>
 
 
