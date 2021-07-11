@@ -347,6 +347,23 @@ th,td{
     text-decoration: none;
     color: black;
 }
+.call{
+    display: flex;
+    justify-content: space-evenly;
+    width: 450px;
+    padding-left: 50px;
+}
+.whatsapp{
+    display: flex;
+    align-items: center;
+    width: 270px;
+    justify-content: space-between;
+    padding-left: 150px;
+}
+.call svg{
+    width: 50px;
+    height: 50px;
+}
 
 
 
