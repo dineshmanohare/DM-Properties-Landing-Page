@@ -325,8 +325,9 @@ th,td{
 }
 .contactMethods{
     position: fixed;
+    overflow: hidden;
     top: 2250px;
-    display: block;
+    /* display: block; */
     display: flex;
 }
 
