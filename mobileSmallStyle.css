@@ -325,7 +325,7 @@ th,td{
 }
 .contactMethods{
     position: fixed;
-    top: 1800px;
+    top: 2000px;
     display: block;
     display: flex;
 }
