@@ -466,6 +466,7 @@ th,td,table {
  }
 .contactMethods{
     display: none;
+    color: black;
 }
 
 
