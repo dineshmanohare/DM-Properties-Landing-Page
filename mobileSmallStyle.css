@@ -290,17 +290,21 @@ th,td{
 }
 .model{
     width: 900px;
-    height: 800px;
+    height: 850px;
     border-radius: 15px;
 }
 .modelTitle{
     width: 800px;
 }
 .modelTitle h1{
-    font-size: 48px;
+    font-size: 42px;
+    margin-left: 120px;
 }
-.modelTitle button{
+.timesButton{
     font-size: 68px;
+    margin-left: 700px;
+    margin-top: 30px;
+    
 }
 .modelInputs{
     height: 400px;
