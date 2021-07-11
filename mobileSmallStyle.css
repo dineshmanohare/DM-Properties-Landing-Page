@@ -324,7 +324,7 @@ th,td{
     padding: 30px;
 }
 .contactMethods{
-    position: absolute;
+    position: fixed;
     top: 2250px;
     display: block;
     display: flex;
