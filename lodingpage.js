@@ -1,4 +1,4 @@
-
+// home image javaScript Code
 var i = 0;
 var images = [];
 var time = 3000;
@@ -18,6 +18,8 @@ function changeImg() {
 }
 window.onload = changeImg;
 
+
+// 
 
 
 let contactButton = document.querySelector('.enquireButton');

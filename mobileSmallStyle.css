@@ -323,6 +323,27 @@ th,td{
     font-size: 36px;
     padding: 30px;
 }
+.contactMethods{
+    position: fixed;
+    top: 1700px;
+    display: block;
+    display: flex;
+}
+
+.callButton button{
+    width: 650px;
+    height: 100px;
+    background-color: #d1953c;
+    font-size: 48px;
+}
+.whatsappButton button{
+    width: 650px;
+    height: 100px;
+    background-color:#d1953c;
+    font-size: 48px;
+}
+
+
 
 }
 
