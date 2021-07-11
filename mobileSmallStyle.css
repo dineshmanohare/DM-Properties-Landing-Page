@@ -326,7 +326,7 @@ th,td{
 .contactMethods{
     position: fixed;
     overflow: hidden;
-    top: 2000px;
+    top: 2200px;
     /* display: block; */
     display: flex;
 }
